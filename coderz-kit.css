@@ -1,5 +1,6 @@
 /* Start The coder-kit Code */
 
+/* start Container class with all screen */
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -24,3 +25,50 @@
     width: 1170px;
   }
 }
+/* End Container class with all screen */
+
+/* Start Background Color */
+.bg-none {
+  background-color: transparent;
+}
+.bg-white {
+  background-color: white;
+  color: black;
+}
+.bg-black {
+  background-color: black;
+  color: white;
+}
+.bg-light {
+  background-color: #f8f9fa;
+  background-color: white;
+}
+.bg-primary {
+  background-color: #007bff;
+  color: white;
+}
+.bg-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+.bg-success {
+  background-color: #28a745;
+  color: white;
+}
+.bg-danger {
+  background-color: #dc3545;
+  color: white;
+}
+/* End Background Color */
+
+/* Start Text Color */
+.txt-white {
+  color: white;
+}
+.txt-secondary {
+  color: #6c757d;
+}
+.txt-success {
+  color: #28a745;
+}
+/* End Text Color */
