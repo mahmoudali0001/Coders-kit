@@ -60,7 +60,6 @@
   color: white;
 }
 /* End Background Color */
-
 /* Start Border Class's And Border Radius*/
 .border {
   border: 1px solid #eee;
@@ -138,7 +137,6 @@
 .radius-top-right {
   border-bottom-right-radius: 10px;
 }
-
 /* End Border Radius*/
 
 /* End Border Class's And Border Radius*/
