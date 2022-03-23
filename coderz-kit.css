@@ -33,67 +33,71 @@
 }
 .bg-white {
   background-color: white;
-  color: black;
 }
 .bg-black {
   background-color: black;
-  color: white;
 }
 .bg-light {
   background-color: #f8f9fa;
-  background-color: white;
 }
 .bg-primary {
   background-color: #007bff;
-  color: white;
 }
 .bg-secondary {
   background-color: #6c757d;
-  color: white;
 }
 .bg-success {
   background-color: #28a745;
-  color: white;
 }
 .bg-danger {
   background-color: #dc3545;
-  color: white;
 }
 /* End Background Color */
 /* Start Border Class's And Border Radius*/
 .border {
-  border: 1px solid #eee;
+  border: 1px solid;
 }
+
 .border-top {
-  border-top: 1px solid #eee;
+  border-top: 1px solid;
 }
+
 .border-left {
-  border-left: 1px solid #eee;
+  border-left: 1px solid;
 }
+
 .border-right {
-  border-right: 1px solid #eee;
+  border-right: 1px solid;
 }
+
 .border-bottom {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid;
 }
+
 .border-none {
   border: none;
 }
+
 .border-top-0 {
   border-top: 0;
 }
+
 .border-right-0 {
   border-right: 0;
 }
+
 .border-left-0 {
   border-left: 0;
 }
+
 .border-bottom-0 {
   border-bottom: 0;
 }
+
 .border-dotted {
   border: 1px dotted #eee;
 }
+
 .border-dashed {
   border: 1px dashed #eee;
 }
@@ -114,7 +118,7 @@
 /* Start Border Color */
 
 /* Start Border Radius*/
-.radius {
+.radius-circle {
   border-radius: 50%;
 }
 .radius-left {
@@ -139,7 +143,7 @@
 }
 /* End Border Radius*/
 /* Start Margin */
-mar-5 {
+.mar-5 {
   margin: 5;
 }
 
@@ -219,325 +223,6 @@ mar-5 {
   margin-top: 20;
 }
 
-.mar-25 {
-  margin: 25;
-}
-
-.mar-l-25 {
-  margin-left: 25;
-}
-
-.mar-r-25 {
-  margin-right: 25;
-}
-
-.mar-b-25 {
-  margin-bottom: 25;
-}
-
-.mar-t-25 {
-  margin-top: 25;
-}
-
-.mar-30 {
-  margin: 30;
-}
-
-.mar-l-30 {
-  margin-left: 30;
-}
-
-.mar-r-30 {
-  margin-right: 30;
-}
-
-.mar-b-30 {
-  margin-bottom: 30;
-}
-
-.mar-t-30 {
-  margin-top: 30;
-}
-
-.mar-35 {
-  margin: 35;
-}
-
-.mar-l-35 {
-  margin-left: 35;
-}
-
-.mar-r-35 {
-  margin-right: 35;
-}
-
-.mar-b-35 {
-  margin-bottom: 35;
-}
-
-.mar-t-35 {
-  margin-top: 35;
-}
-
-.mar-40 {
-  margin: 40;
-}
-
-.mar-l-40 {
-  margin-left: 40;
-}
-
-.mar-r-40 {
-  margin-right: 40;
-}
-
-.mar-b-40 {
-  margin-bottom: 40;
-}
-
-.mar-t-40 {
-  margin-top: 40;
-}
-
-.mar-45 {
-  margin: 45;
-}
-
-.mar-l-45 {
-  margin-left: 45;
-}
-
-.mar-r-45 {
-  margin-right: 45;
-}
-
-.mar-b-45 {
-  margin-bottom: 45;
-}
-
-.mar-t-45 {
-  margin-top: 45;
-}
-
-.mar-50 {
-  margin: 50;
-}
-
-.mar-l-50 {
-  margin-left: 50;
-}
-
-.mar-r-50 {
-  margin-right: 50;
-}
-
-.mar-b-50 {
-  margin-bottom: 50;
-}
-
-.mar-t-50 {
-  margin-top: 50;
-}
-
-.mar-55 {
-  margin: 55;
-}
-
-.mar-l-55 {
-  margin-left: 55;
-}
-
-.mar-r-55 {
-  margin-right: 55;
-}
-
-.mar-b-55 {
-  margin-bottom: 55;
-}
-
-.mar-t-55 {
-  margin-top: 55;
-}
-
-.mar-60 {
-  margin: 60;
-}
-
-.mar-l-60 {
-  margin-left: 60;
-}
-
-.mar-r-60 {
-  margin-right: 60;
-}
-
-.mar-b-60 {
-  margin-bottom: 60;
-}
-
-.mar-t-60 {
-  margin-top: 60;
-}
-
-.mar-65 {
-  margin: 65;
-}
-
-.mar-l-65 {
-  margin-left: 65;
-}
-
-.mar-r-65 {
-  margin-right: 65;
-}
-
-.mar-b-65 {
-  margin-bottom: 65;
-}
-
-.mar-t-65 {
-  margin-top: 65;
-}
-
-.mar-70 {
-  margin: 70;
-}
-
-.mar-l-70 {
-  margin-left: 70;
-}
-
-.mar-r-70 {
-  margin-right: 70;
-}
-
-.mar-b-70 {
-  margin-bottom: 70;
-}
-
-.mar-t-70 {
-  margin-top: 70;
-}
-
-.mar-75 {
-  margin: 75;
-}
-
-.mar-l-75 {
-  margin-left: 75;
-}
-
-.mar-r-75 {
-  margin-right: 75;
-}
-
-.mar-b-75 {
-  margin-bottom: 75;
-}
-
-.mar-t-75 {
-  margin-top: 75;
-}
-
-.mar-80 {
-  margin: 80;
-}
-
-.mar-l-80 {
-  margin-left: 80;
-}
-
-.mar-r-80 {
-  margin-right: 80;
-}
-
-.mar-b-80 {
-  margin-bottom: 80;
-}
-
-.mar-t-80 {
-  margin-top: 80;
-}
-
-.mar-85 {
-  margin: 85;
-}
-
-.mar-l-85 {
-  margin-left: 85;
-}
-
-.mar-r-85 {
-  margin-right: 85;
-}
-
-.mar-b-85 {
-  margin-bottom: 85;
-}
-
-.mar-t-85 {
-  margin-top: 85;
-}
-
-.mar-90 {
-  margin: 90;
-}
-
-.mar-l-90 {
-  margin-left: 90;
-}
-
-.mar-r-90 {
-  margin-right: 90;
-}
-
-.mar-b-90 {
-  margin-bottom: 90;
-}
-
-.mar-t-90 {
-  margin-top: 90;
-}
-
-.mar-95 {
-  margin: 95;
-}
-
-.mar-l-95 {
-  margin-left: 95;
-}
-
-.mar-r-95 {
-  margin-right: 95;
-}
-
-.mar-b-95 {
-  margin-bottom: 95;
-}
-
-.mar-t-95 {
-  margin-top: 95;
-}
-
-.mar-100 {
-  margin: 100;
-}
-
-.mar-l-100 {
-  margin-left: 100;
-}
-
-.mar-r-100 {
-  margin-right: 100;
-}
-
-.mar-b-100 {
-  margin-bottom: 100;
-}
-
-.mar-t-100 {
-  margin-top: 100;
-}
 /* End Margin */
 /* Start Paddding */
 .pad-5 {
@@ -619,334 +304,14 @@ mar-5 {
 .pad-t-20 {
   padding-top: 20;
 }
-
-.pad-25 {
-  padding: 25;
-}
-
-.pad-l-25 {
-  padding-left: 25;
-}
-
-.pad-r-25 {
-  padding-right: 25;
-}
-
-.pad-b-25 {
-  padding-bottom: 25;
-}
-
-.pad-t-25 {
-  padding-top: 25;
-}
-
-.pad-30 {
-  padding: 30;
-}
-
-.pad-l-30 {
-  padding-left: 30;
-}
-
-.pad-r-30 {
-  padding-right: 30;
-}
-
-.pad-b-30 {
-  padding-bottom: 30;
-}
-
-.pad-t-30 {
-  padding-top: 30;
-}
-
-.pad-35 {
-  padding: 35;
-}
-
-.pad-l-35 {
-  padding-left: 35;
-}
-
-.pad-r-35 {
-  padding-right: 35;
-}
-
-.pad-b-35 {
-  padding-bottom: 35;
-}
-
-.pad-t-35 {
-  padding-top: 35;
-}
-
-.pad-40 {
-  padding: 40;
-}
-
-.pad-l-40 {
-  padding-left: 40;
-}
-
-.pad-r-40 {
-  padding-right: 40;
-}
-
-.pad-b-40 {
-  padding-bottom: 40;
-}
-
-.pad-t-40 {
-  padding-top: 40;
-}
-
-.pad-45 {
-  padding: 45;
-}
-
-.pad-l-45 {
-  padding-left: 45;
-}
-
-.pad-r-45 {
-  padding-right: 45;
-}
-
-.pad-b-45 {
-  padding-bottom: 45;
-}
-
-.pad-t-45 {
-  padding-top: 45;
-}
-
-.pad-50 {
-  padding: 50;
-}
-
-.pad-l-50 {
-  padding-left: 50;
-}
-
-.pad-r-50 {
-  padding-right: 50;
-}
-
-.pad-b-50 {
-  padding-bottom: 50;
-}
-
-.pad-t-50 {
-  padding-top: 50;
-}
-
-.pad-55 {
-  padding: 55;
-}
-
-.pad-l-55 {
-  padding-left: 55;
-}
-
-.pad-r-55 {
-  padding-right: 55;
-}
-
-.pad-b-55 {
-  padding-bottom: 55;
-}
-
-.pad-t-55 {
-  padding-top: 55;
-}
-
-.pad-60 {
-  padding: 60;
-}
-
-.pad-l-60 {
-  padding-left: 60;
-}
-
-.pad-r-60 {
-  padding-right: 60;
-}
-
-.pad-b-60 {
-  padding-bottom: 60;
-}
-
-.pad-t-60 {
-  padding-top: 60;
-}
-
-.pad-65 {
-  padding: 65;
-}
-
-.pad-l-65 {
-  padding-left: 65;
-}
-
-.pad-r-65 {
-  padding-right: 65;
-}
-
-.pad-b-65 {
-  padding-bottom: 65;
-}
-
-.pad-t-65 {
-  padding-top: 65;
-}
-
-.pad-70 {
-  padding: 70;
-}
-
-.pad-l-70 {
-  padding-left: 70;
-}
-
-.pad-r-70 {
-  padding-right: 70;
-}
-
-.pad-b-70 {
-  padding-bottom: 70;
-}
-
-.pad-t-70 {
-  padding-top: 70;
-}
-
-.pad-75 {
-  padding: 75;
-}
-
-.pad-l-75 {
-  padding-left: 75;
-}
-
-.pad-r-75 {
-  padding-right: 75;
-}
-
-.pad-b-75 {
-  padding-bottom: 75;
-}
-
-.pad-t-75 {
-  padding-top: 75;
-}
-
-.pad-80 {
-  padding: 80;
-}
-
-.pad-l-80 {
-  padding-left: 80;
-}
-
-.pad-r-80 {
-  padding-right: 80;
-}
-
-.pad-b-80 {
-  padding-bottom: 80;
-}
-
-.pad-t-80 {
-  padding-top: 80;
-}
-
-.pad-85 {
-  padding: 85;
-}
-
-.pad-l-85 {
-  padding-left: 85;
-}
-
-.pad-r-85 {
-  padding-right: 85;
-}
-
-.pad-b-85 {
-  padding-bottom: 85;
-}
-
-.pad-t-85 {
-  padding-top: 85;
-}
-
-.pad-90 {
-  padding: 90;
-}
-
-.pad-l-90 {
-  padding-left: 90;
-}
-
-.pad-r-90 {
-  padding-right: 90;
-}
-
-.pad-b-90 {
-  padding-bottom: 90;
-}
-
-.pad-t-90 {
-  padding-top: 90;
-}
-
-.pad-95 {
-  padding: 95;
-}
-
-.pad-l-95 {
-  padding-left: 95;
-}
-
-.pad-r-95 {
-  padding-right: 95;
-}
-
-.pad-b-95 {
-  padding-bottom: 95;
-}
-
-.pad-t-95 {
-  padding-top: 95;
-}
-
-.pad-100 {
-  padding: 100;
-}
-
-.pad-l-100 {
-  padding-left: 100;
-}
-
-.pad-r-100 {
-  padding-right: 100;
-}
-
-.pad-b-100 {
-  padding-bottom: 100;
-}
-
-.pad-t-100 {
-  padding-top: 100;
-}
 /* End  Paddding */
 /* Start Flex */
 /*
-    -Position
-    -Top
-    -Left
-    -Right
-    -Bottom
+  -Position
+  -Top
+  -Left
+  -Right
+  -Bottom
 */
 .pos-rel {
   position: relative;
@@ -1299,7 +664,281 @@ mar-5 {
 .bottom-100 {
   left: 100%;
 }
-
 /* End Flex */
+/*
+    CSS Reset => Reset css file to default values like : margin, padding, border, and so on ...
+*/
+.r-css {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* Start Display Flex */
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
-/* End Border Class's And Border Radius*/
+.d-flex-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.d-flex-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.d-flex-evenly {
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.flex-str {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.flex-end {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* End Display Flex */
+
+/* Start The Grid system */
+.d-grid {
+  display: -ms-grid;
+  display: grid;
+}
+.g-align-content-center {
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+.g-align-content-baseline {
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+.g-align-content-space-around {
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+}
+.g-align-content-space-evenly {
+  align-content: space-evenly;
+}
+.g-align-content-stretch {
+  align-content: stretch;
+}
+
+.g-justify-content-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.g-justify-content-end {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+}
+
+.g-justify-content-start {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
+.g-justify-content-space-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.g-justify-content-space-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.g-justify-content-space-evenly {
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.g-align-items-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.g-align-items-start {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.g-align-items-end {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.g-align-items-stretch {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.g-align-items-baseline {
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.g-justify-items-center {
+  justify-items: center;
+}
+
+.g-justify-items-start {
+  justify-items: start;
+}
+
+.g-justify-items-end {
+  justify-items: end;
+}
+
+.g-justify-items-stretch {
+  justify-items: stretch;
+}
+
+.col-1 {
+  grid-template-columns: 1fr;
+}
+
+.col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.col-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.col-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.col-7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.col-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.col-9 {
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.col-10 {
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.col-11 {
+  grid-template-columns: repeat(11, 1fr);
+}
+
+.col-12 {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/* Col In Medium Screen */
+@media (max-width: 768px) {
+  .col-m-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .col-m-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .col-m-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .col-m-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Col In Medium Screen */
+@media (max-width: 576px) {
+  .col-sm-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .col-sm-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .col-sm-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.gap-20 {
+  gap: 15px;
+}
+
+/* End The Grid system */
+/* End Border Class's And Border Radius*/ ;
